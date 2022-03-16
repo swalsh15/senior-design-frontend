@@ -1,0 +1,142 @@
+[
+  {
+    "id": "Mediterranean",
+    "label": "Mediterranean"
+  },
+  {
+    "id": " Greek",
+    "label": " Greek"
+  },
+  {
+    "id": " Middle Eastern",
+    "label": " Middle Eastern"
+  },
+  {
+    "id": "Fast Food",
+    "label": "Fast Food"
+  },
+  {
+    "id": " Sandwiches",
+    "label": " Sandwiches"
+  },
+  {
+    "id": " Bakeries",
+    "label": " Bakeries"
+  },
+  {
+    "id": " Delis",
+    "label": " Delis"
+  },
+  {
+    "id": "Coffee & Tea",
+    "label": "Coffee & Tea"
+  },
+  {
+    "id": " Donuts",
+    "label": " Donuts"
+  },
+  {
+    "id": "Dim Sum",
+    "label": "Dim Sum"
+  },
+  {
+    "id": " Chinese",
+    "label": " Chinese"
+  },
+  {
+    "id": "Cheesesteaks",
+    "label": "Cheesesteaks"
+  },
+  {
+    "id": " Chicken Wings",
+    "label": " Chicken Wings"
+  },
+  {
+    "id": "Hotels & Travel",
+    "label": "Hotels & Travel"
+  },
+  {
+    "id": " Transportation",
+    "label": " Transportation"
+  },
+  {
+    "id": " Travel Services",
+    "label": " Travel Services"
+  },
+  {
+    "id": " Cafeteria",
+    "label": " Cafeteria"
+  },
+  {
+    "id": "Specialty Food",
+    "label": "Specialty Food"
+  },
+  {
+    "id": " Ethnic Food",
+    "label": " Ethnic Food"
+  },
+  {
+    "id": " Burgers",
+    "label": " Burgers"
+  },
+  {
+    "id": " Japanese",
+    "label": " Japanese"
+  },
+  {
+    "id": " Pakistani",
+    "label": " Pakistani"
+  },
+  {
+    "id": " Indian",
+    "label": " Indian"
+  },
+  {
+    "id": " Pizza",
+    "label": " Pizza"
+  },
+  {
+    "id": " Comfort Food",
+    "label": " Comfort Food"
+  },
+  {
+    "id": " Canadian (New)",
+    "label": " Canadian (New)"
+  },
+  {
+    "id": "Breakfast & Brunch",
+    "label": "Breakfast & Brunch"
+  },
+  {
+    "id": " Halal",
+    "label": " Halal"
+  },
+  {
+    "id": " Turkish",
+    "label": " Turkish"
+  },
+  {
+    "id": "Gluten-Free",
+    "label": "Gluten-Free"
+  },
+  {
+    "id": " Southern",
+    "label": " Southern"
+  },
+  {
+    "id": "Vietnamese",
+    "label": "Vietnamese"
+  },
+  {
+    "id": " Noodles",
+    "label": " Noodles"
+  },
+  {
+    "id": " Soup",
+    "label": " Soup"
+  },
+  {
+    "id": "Mexican",
+    "label": "Mexican"
+  }
+]
