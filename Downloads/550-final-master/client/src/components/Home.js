@@ -3,17 +3,14 @@ import '../style/Dashboard.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PageNavbar from './PageNavbar';
 import { Jumbotron } from 'react-bootstrap';
-// import KeywordButton from './KeywordButton';
-//import DashboardMovieRow from './DashboardMovieRow';
 
 export default class Home extends React.Component {
   constructor(props) {
     super(props);
 
-    // The state maintained by this React Component. This component maintains the list of keywords,
-    // and a list of movies for a specified keyword.
+    // The state maintained by this React Component. 
     this.state = {
-      businesses: [],
+      x: [],
     };
 
   };
@@ -27,8 +24,8 @@ export default class Home extends React.Component {
       <div className="Home">
         <PageNavbar active="home" />
         <Jumbotron>
-          <h1>Home Page</h1>
-          <p>Page to search for businesses</p>
+          <h1>Page 2</h1>
+          <p>This is another page</p>
         </Jumbotron>
       </div>
     );

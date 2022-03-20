@@ -5,11 +5,8 @@ import {
   Switch
 } from 'react-router-dom';
 import Home from './Home';
-import Cities from './Cities';
-import Users from './Users';
 import Chains from './Chains';
-import Friends from './Friends';
-import Restaurants from './Restaurants.js';
+
 
 export default class App extends React.Component {
 
@@ -29,21 +26,12 @@ export default class App extends React.Component {
 							render={() => <Chains />}
 						/>
 						<Route
-							path="/users"
-							render={() => <Users />}
+							exact
+							path="/second"
+							render={() => <Home />}
 						/>
-						<Route
-							path="/friends"
-							render={() => <Friends />}
-            			/>
-            			<Route
-              				path="/cities"
-              				render={() => <Cities />}
-						/>
-						<Route
-							path="/food"
-							render={() => <Restaurants />}
-						/>
+
+					
 					</Switch>
 				</Router>
 			</div>
