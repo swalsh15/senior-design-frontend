@@ -33,6 +33,7 @@ export default class Chains extends React.Component {
   // React function that is called when the page load.
   componentDidMount() {
     //set initial state here
+    // rows was previously empty
     this.setState({
       clicks: 0,
       rows: []
