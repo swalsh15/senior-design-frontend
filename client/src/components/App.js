@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import Home from './Home';
 import Chains from './Chains';
+import Scanner from './Scanner';
 
 
 export default class App extends React.Component {
@@ -22,13 +23,18 @@ export default class App extends React.Component {
 						/>
 						<Route
 							exact
-							path="/home"
+							path="/simple-table"
 							render={() => <Chains />}
 						/>
 						<Route
 							exact
-							path="/second"
+							path="/timeline"
 							render={() => <Home />}
+						/>
+						<Route
+							exact
+							path="/qr-scanner"
+							render={() => <Scanner />}
 						/>
 
 					

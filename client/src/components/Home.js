@@ -31,7 +31,6 @@ export default class Home extends React.Component {
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             date={row.date}
             iconStyle={{ background: 'rgb(0, 250, 0)', color: '#000' }}
-
           >
           <h3 className="vertical-timeline-element-title">{row.id}</h3>
           <h4 className="vertical-timeline-element-subtitle">{row.type}</h4>
