@@ -13,6 +13,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import vaccineData from './samplevaccinedata.json';
 
 
 export default class Chains extends React.Component {
@@ -55,51 +56,30 @@ export default class Chains extends React.Component {
         <PageNavbar active="home" />
         <Jumbotron>
           <h1>Home Page</h1>
-          <p>
-            This is an example of how to work with React's state. This page shows 
-            how many times you click the button lol 
-          </p>
-
-     
-           <button className="submit-btn" id="submitBtn" onClick={this.handleClick}> Sample button </button>
-           <p>Num clicks: {this.state.clicks} </p>
-              
-          <br></br>
-
-          
-
-       
           
           <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
-        <TableHead>
-          <TableRow>
-            <TableCell>ID</TableCell>
-            <TableCell>Type</TableCell>
-            <TableCell>Notes</TableCell>
-            <TableCell align="right">Verified</TableCell>
-          </TableRow>
-        </TableHead>
-        
-        <TableBody>
-         
-          
-          {this.state.rows.map((row) => (
-            <TableRow>
-              <TableCell> {row.id}</TableCell>
-              <TableCell>{row.type}</TableCell>
-              <TableCell>{row.notes}</TableCell>
-              <TableCell align="right">{row.verify}</TableCell>
-            </TableRow>
-          ))}
+          <Table sx={{ minWidth: 650 }} aria-label="simple table">
+            <TableHead>
+              <TableRow>
+                <TableCell>ID</TableCell>
+                <TableCell>Type</TableCell>
+                <TableCell>Notes</TableCell>
+                <TableCell align="right">Verified</TableCell>
+              </TableRow>
+            </TableHead>
 
-        
-          
-        </TableBody>
-
-      </Table>
-    </TableContainer> 
-
+            <TableBody>
+              {vaccineData.map((row) => (
+                <TableRow>
+                  <TableCell> {row.id}</TableCell>
+                  <TableCell>{row.type}</TableCell>
+                  <TableCell>{row.notes}</TableCell>
+                  <TableCell align="right">{row.verify}</TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+          </TableContainer> 
         </Jumbotron>
       </div>
     );
