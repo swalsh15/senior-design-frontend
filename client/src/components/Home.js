@@ -6,7 +6,7 @@ import { Jumbotron } from 'react-bootstrap';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import vaccineData from './samplevaccinedata.json';
-import check from './check.png';
+//import check from './check.png';
 
 export default class Home extends React.Component {
   constructor(props) {

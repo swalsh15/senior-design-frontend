@@ -7,6 +7,7 @@ import {
 import Home from './Home';
 import Chains from './Chains';
 import Scanner from './Scanner';
+import Diagram from './Diagram';
 
 
 export default class App extends React.Component {
@@ -25,6 +26,11 @@ export default class App extends React.Component {
 							exact
 							path="/simple-table"
 							render={() => <Chains />}
+						/>
+						<Route
+							exact
+							path="/diagram"
+							render={() => <Diagram />}
 						/>
 						<Route
 							exact

@@ -1,0 +1,46 @@
+.secureTopMessage {
+    display:block;
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border: 5px solid lightgreen; 
+}
+
+.topMessageText {
+    padding: 10px;
+}
+
+.collapse {
+    display: none;
+    color: purple;
+}
+
+#demo2 {
+    display: block !important;
+}
+
+.collapse.in {
+    display: block
+}
+
+.testOpen {
+    color:purple;
+}
+
+.testClosed {
+    color:black;
+}
+
+.icon {
+    font-size: large;
+    color:white;
+    width: 200 !important;
+    height: 200 !important;
+}
+
+.line {
+    color:lightblue;
+    width: 200px;
+    height: 10px;
+}
