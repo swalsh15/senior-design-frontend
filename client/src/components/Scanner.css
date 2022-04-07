@@ -1,4 +1,16 @@
 .qr {
-    height: 10%;
-    width: 10%;
+    display: block;
+    margin: auto;
+    height: 40%;
+    width: 40%;
+}
+
+.scanMessage {
+    background-color: white;
+    display:block;
+    text-align: center;
+    margin: auto;
+    border: 5px solid rgb(108, 247, 247); 
+    width: 500px;
+    height: 60px;
 }
